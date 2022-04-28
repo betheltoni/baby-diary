@@ -1,0 +1,50 @@
+.footer{
+    color: #7A7E84;
+    margin-left: 5%;
+    padding-bottom: 2%;
+    ul{
+        padding: 0;
+    }
+    li{
+        list-style-type: none;
+    }
+    span{
+        color: #ED6FAB;
+    }
+    img{
+        padding-right: 10%;
+    }
+    .footer-icon-section{
+        span{
+            color: #7A7E84;
+        }
+        .footer-icons{
+            padding-left: 49%;
+        }
+    }
+    .footer-grid{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        h4{
+            text-align: left;
+        }
+    }
+    .about{
+       .about-grid{
+           display: grid;
+           grid-template-columns: auto auto;
+       }
+    }
+    .support{
+        .support-grid{
+            display: grid;
+            grid-template-columns: auto auto;
+        }
+     }
+     .community{
+        .community-grid{
+            display: grid;
+            grid-template-columns: auto auto;
+        }
+     }
+}

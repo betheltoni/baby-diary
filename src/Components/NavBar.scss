@@ -1,0 +1,46 @@
+.navbar{
+    font-family: 'Quicksand';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #7A7D85;
+    
+}
+
+.top-navbar{
+    display: flex;
+    align-items: center;
+    height: 79px;
+    background-color: #ffffff;
+    border: 1px solid #E4E5E7;
+    box-sizing: border-box;
+    input{
+        margin-left: 10%;
+        height: 35px;
+        width: 350px;
+        background: #FFFFFF;
+        border: 1px solid #E8E8EA;
+        box-sizing: border-box;
+        border-radius: 5px;
+        padding-left: 8px;
+        font-size: 14px;
+    }
+    div{
+        display: flex;
+        align-items: center; 
+        margin-left: 30%;
+        h3{
+            margin: 0 30px;
+        }
+    }
+}
+
+.bottom-navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 41px;
+    background-color: #ffffff;
+    border: 1px solid #E4E5E7;
+    box-sizing: border-box;
+}
