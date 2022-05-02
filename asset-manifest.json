@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/baby-diary/static/css/main.05bb364f.css",
-    "main.js": "/baby-diary/static/js/main.667fefc9.js",
+    "main.css": "/baby-diary/static/css/main.871a06be.css",
+    "main.js": "/baby-diary/static/js/main.c017bdcb.js",
     "static/js/787.9e32fc62.chunk.js": "/baby-diary/static/js/787.9e32fc62.chunk.js",
     "static/media/backgroundImage.svg": "/baby-diary/static/media/backgroundImage.6cfb767af5c5e28fe528.svg",
     "static/media/safe.svg": "/baby-diary/static/media/safe.1966e753843e3e654579.svg",
@@ -12,7 +12,7 @@
     "static/media/sleep.svg": "/baby-diary/static/media/sleep.c275c9d3b13f7d12bb3a.svg",
     "static/media/backpains.svg": "/baby-diary/static/media/backpains.e7f927eb70c59c9debe717b4d8f59d4f.svg",
     "static/media/babylook.svg": "/baby-diary/static/media/babylook.1ef1da2b1c637a71546b803dc5423459.svg",
-    "static/media/labour.svg": "/baby-diary/static/media/labour.13c2db56a40cd9a53a2a.svg",
+    "static/media/delivery.svg": "/baby-diary/static/media/delivery.13c2db56a40cd9a53a2a.svg",
     "static/media/checklist.svg": "/baby-diary/static/media/checklist.b30c7c8d1fdda746cbac034dfd98b962.svg",
     "static/media/babyCenter2.svg": "/baby-diary/static/media/babyCenter2.af7b4caaec7b1c764c9369ab31885fc9.svg",
     "static/media/diapering.svg": "/baby-diary/static/media/diapering.056ec0eedd2074360b38.svg",
@@ -36,12 +36,12 @@
     "static/media/chevronRight.svg": "/baby-diary/static/media/chevronRight.ab3039e862a7859b38ee7e3fede9345e.svg",
     "static/media/ellipse.svg": "/baby-diary/static/media/ellipse.8e6b18af878fbad75b53ab8bfab140b2.svg",
     "static/media/hr.svg": "/baby-diary/static/media/hr.e396b06eb64a18fa6932f2fec423dcb7.svg",
-    "main.05bb364f.css.map": "/baby-diary/static/css/main.05bb364f.css.map",
-    "main.667fefc9.js.map": "/baby-diary/static/js/main.667fefc9.js.map",
+    "main.871a06be.css.map": "/baby-diary/static/css/main.871a06be.css.map",
+    "main.c017bdcb.js.map": "/baby-diary/static/js/main.c017bdcb.js.map",
     "787.9e32fc62.chunk.js.map": "/baby-diary/static/js/787.9e32fc62.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.05bb364f.css",
-    "static/js/main.667fefc9.js"
+    "static/css/main.871a06be.css",
+    "static/js/main.c017bdcb.js"
   ]
 }
