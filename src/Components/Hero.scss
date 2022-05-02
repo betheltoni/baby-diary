@@ -84,7 +84,7 @@
     padding-top: 50px;
     .expert-advice-grid{
         display: grid;
-        grid-template-columns: auto auto auto auto;
+        grid-template-columns: 25% 25% 25% 25%;
         height: 300px;
         h3{
             color: white;
@@ -110,10 +110,10 @@
         }
     }
     .labour{
-        background-image: url('../images/labour.svg');
+        background-image: url('../images/delivery.svg');
         background-repeat: no-repeat;
         background-size: cover;
-        width: 75%;
+        width: 80%;
         border-radius: 15px;
         div{
             background-color: rgba(0, 0, 0, 0.45);
