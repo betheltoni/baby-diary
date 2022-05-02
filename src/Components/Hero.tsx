@@ -40,7 +40,7 @@ const Hero = () => {
             </div>
             <div className='amazing-dev-button'>
               <div>
-                <Button text='Get started' style={{backgroundColor:"#ED6FAB",borderRadius: "6.7px", border:"none", height:"37px", width: "126px"}}/>
+                <Button text='Get started' style={{backgroundColor:"#ED6FAB",borderRadius: "6.7px", border:"none", height:"37px", width: "126px",color:"white"}}/>
               </div>
               <div>
                 <Button text='Sign in'style={{backgroundColor:"#fff",borderRadius: "6.7px", border:"none", height:"37px", width: "126px"}}/>
@@ -59,7 +59,7 @@ const Hero = () => {
               </div>
               <div className='baby-looks-button'>
                 <div>
-                  <Button text='Show me' style={{backgroundColor:"#ED6FAB",borderRadius: "6.7px", border:"none", height:"37px", width: "126px"}}/>
+                  <Button text='Show me' style={{backgroundColor:"#ED6FAB",borderRadius: "6.7px", border:"none", height:"37px", width: "126px", color:"white"}}/>
                 </div>
                 <div>
                   <Button text='Create account' style={{backgroundColor:"#fff",borderRadius: "6.7px", border:"none", height:"37px", width: "126px"}}/>

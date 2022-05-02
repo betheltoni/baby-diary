@@ -19,7 +19,7 @@ const Footer = () => {
               <li>Privacy Policy</li>
             </ul>
           </div>
-          <div>
+          <div className='innerDiv'>
             <ul>
                 <li>Terms of Seervice</li>
                 <li>Intellectual Property Claims</li>
@@ -36,7 +36,7 @@ const Footer = () => {
               <li>Help & Support</li>
             </ul>
           </div>
-          <div>
+          <div className='innerDiv'>
             <ul>
               <li>Trust & Safety</li>
               <li>Contact us</li>
@@ -54,7 +54,7 @@ const Footer = () => {
               <li>Podcast</li>
             </ul>
           </div>
-          <div>
+          <div className='innerDiv'>
             <ul>
               <li>Affiliates</li>
               <li>Invite a Friend</li>
@@ -68,8 +68,8 @@ const Footer = () => {
     <hr />
     <div className='footer-icon-section'>
         <img src={footerLogo} alt="" /> 
-        &#169;
-        <span>Baby Diary. 2020</span>
+        
+        <span> &#169; Baby Diary. 2020</span>
         <img src={footerIcons} alt="" className='footer-icons'/>
     </div>
   </div>

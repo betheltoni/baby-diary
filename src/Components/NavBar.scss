@@ -12,7 +12,7 @@
     align-items: center;
     height: 79px;
     background-color: #ffffff;
-    border: 1px solid #E4E5E7;
+    // border: 1px solid #E4E5E7;
     box-sizing: border-box;
     input{
         margin-left: 10%;
@@ -28,7 +28,7 @@
     div{
         display: flex;
         align-items: center; 
-        margin-left: 30%;
+        margin-left: 20%;
         h3{
             margin: 0 30px;
         }
@@ -36,11 +36,19 @@
 }
 
 .bottom-navbar{
+    border-top: 1px solid #E4E5E7;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    div{
     display: flex;
     align-items: center;
     justify-content: space-around;
     height: 41px;
     background-color: #ffffff;
-    border: 1px solid #E4E5E7;
+    
     box-sizing: border-box;
+    width: 91%;
+    }
+    
+
 }

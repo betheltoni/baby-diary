@@ -1,12 +1,20 @@
 .footer{
     color: #7A7E84;
-    margin-left: 5%;
+    
     padding-bottom: 2%;
+    font-size: 13px;
     ul{
         padding: 0;
     }
     li{
         list-style-type: none;
+    }
+    p{
+        margin-left: 5%;
+    }
+    .innerDiv{
+        position: relative;
+        right: 40%;
     }
     span{
         color: #ED6FAB;
@@ -15,14 +23,19 @@
         padding-right: 10%;
     }
     .footer-icon-section{
+        margin-left: 5%;
         span{
             color: #7A7E84;
+            position: relative;
+            bottom: 12px;
         }
         .footer-icons{
-            padding-left: 49%;
+            padding-left: 45%;
+            margin-bottom: 5px;
         }
     }
     .footer-grid{
+        margin-left: 5%;
         display: grid;
         grid-template-columns: auto auto auto;
         h4{
