@@ -16,7 +16,9 @@ const Watching = () => {
             <span>VIDEOS</span>
             <div className='watching-header'>
               <h2>What people are watching now</h2>
-              <Button text='View more videos' style={{backgroundColor:"#fff",borderRadius: "6.7px", border:"none", height:"37px", width: "136px"}}/>
+              <div className='watching-button'>
+                <Button text='View more videos' style={{backgroundColor:"#fff",borderRadius: "6.7px", border:"none", height:"37px", width: "136px"}}/>
+              </div>
             </div>
             <div className='watching-grid'>
               <div className='check-list'>
@@ -24,7 +26,7 @@ const Watching = () => {
                   <img src={circle} alt="" />
                   <img src={play} alt="" className='play-icon' />
                 </div>
-                <img src={checklist} alt="" />
+                <img src={checklist} alt="" className='watching-image'/>
                 <p>7 Baby's Checklist</p>
                 <p className='duration-text'>12mins</p>
               </div>
@@ -33,7 +35,7 @@ const Watching = () => {
                   <img src={circle} alt="" />
                   <img src={play} alt="" className='play-icon' />
                 </div>
-                <img src={babynames} alt="" />
+                <img src={babynames} alt="" className='watching-image'/>
                 <p>Awesome baby name ideas</p>
                 <p className='duration-text'>12mins</p>
               </div>
@@ -42,7 +44,7 @@ const Watching = () => {
                   <img src={circle} alt="" />
                   <img src={play} alt="" className='play-icon' />
                 </div>
-                <img src={pregnancysigns} alt="" />
+                <img src={pregnancysigns} alt="" className='watching-image' />
                 <p>10 signs you're pregnant</p>
                 <p className='duration-text'>12mins</p>
               </div>
@@ -51,7 +53,7 @@ const Watching = () => {
                   <img src={circle} alt="" />
                   <img src={play} alt="" className='play-icon' />
                 </div>
-                <img src={backpains} alt="" />
+                <img src={backpains} alt="" className='watching-image' />
                 <p>Pregnancy and back pains</p>
                 <p className='duration-text'>12mins</p>
               </div>

@@ -3,10 +3,15 @@
     padding-top: 50px;
     height: 380px;
     padding-left: 5%;
+    padding-right: 5%;
     margin-bottom: 80px;
     color: #fff;
     overflow-x: hidden;
     overflow-y: hidden;
+    // p{
+    //     display: inline;
+    //     margin-left: 5%;
+    // }
     .play-icon{
         position: relative;
         right: 43px;
@@ -23,9 +28,14 @@
         font-size: smaller;
     }
     .watching-header{
+        .watching-button{
+            display: inline;
+            position: absolute;
+            right: 5%;
+        }
         h2{
             display: inline;
-            margin-right: 60.5%;
+            
         }
     }
     .logo{
@@ -33,15 +43,53 @@
     }
     .watching-grid{
         display: grid;
-        grid-template-columns: auto auto auto auto;
+        grid-template-columns: 25% 25% 25% 25%;
         padding-top: 0;
         position: relative;
         bottom: 8%;
     }
-    .duration-text{
-        position: relative;
-        left: 67%;
-        bottom: 11%;
-        color: rgba(255, 255, 255, 0.4);
+    .watching-image{
+        width: 100%;
+    }
+    
+    .baby-names{
+        margin-left: 7%;
+        .duration-text{
+            
+            position: relative;
+            left: 82%;
+            bottom: 11%;
+            color: rgba(255, 255, 255, 0.4);
+        }
+    }
+    .pregnancy-signs{
+        margin-left: 7%;
+        .duration-text{
+            
+            position: relative;
+            left: 82%;
+            bottom: 11%;
+            color: rgba(255, 255, 255, 0.4);
+        }
+    }
+    .back-pains{
+        margin-left: 7%;
+        .duration-text{
+            
+            position: relative;
+            left: 82%;
+            bottom: 11%;
+            color: rgba(255, 255, 255, 0.4);
+        }
+    }
+    .check-list{
+        margin-left: 7%;
+        .duration-text{
+            
+            position: relative;
+            left: 82%;
+            bottom: 11%;
+            color: rgba(255, 255, 255, 0.4);
+        }
     }
 }
