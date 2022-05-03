@@ -1,5 +1,6 @@
 import React from 'react'
 import weekbyweek from "../images/weekbyweek.svg"
+import "./Pregnancy.scss";
 
 const Pregnacy = () => {
   return (

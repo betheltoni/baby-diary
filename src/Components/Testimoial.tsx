@@ -2,7 +2,7 @@ import React from 'react'
 import testimonialImage from "../images/testimonialImage.svg"
 import chevronLeft from "../images/chevronLeft.svg"
 import chevronRight from "../images/chevronRight.svg"
-
+import "./Testimonial.scss";
 import circle from "../images/circle.svg"
 
 const Testimoial = () => {

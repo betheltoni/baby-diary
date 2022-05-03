@@ -8,7 +8,7 @@ import babynames from "../images/babynames.svg"
 import backpains from "../images/backpains.svg"
 import checklist from "../images/checklist.svg"
 import pregnancysigns from "../images/pregnancysigns.svg"
-
+import "./BabyDiary.scss";
 const BabyDiary = () => {
   return (
     <div className='baby-diary'>

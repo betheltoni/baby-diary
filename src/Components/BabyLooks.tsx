@@ -1,6 +1,7 @@
 import React from 'react'
 import Button from './Button'
 import babylook from "../images/babylook.svg"
+import "./BabyLooks.scss";
 
 const BabyLooks = () => {
   return (

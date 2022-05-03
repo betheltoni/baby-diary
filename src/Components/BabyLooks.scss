@@ -1,0 +1,27 @@
+.baby-looks{
+    display: flex;
+    margin-top: 5px;
+    padding-top: 3%;
+    padding-bottom: 1%;
+    background-color: #FFE4F1;
+    height: 300px;
+
+    .baby-looks-text{
+        margin-left: 10.3%;
+        width: 60%;
+        line-height: 40px;
+        word-spacing: 6px;
+        color: #454545;
+
+    }
+    .baby-looks-button{
+        margin-left: 10.3%;
+        div{
+            display: inline;
+            margin-right: 15px;
+        }
+    }
+    .baby-looks-image{
+        margin-left: 3%;
+    }
+}

@@ -1,0 +1,80 @@
+
+.expert-advice{
+    height: 300px;
+    margin-left: 5%;
+    padding-bottom: 30px;
+    margin-bottom: 100px;
+    padding-top: 50px;
+    .expert-advice-grid{
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+        height: 300px;
+        h3{
+            color: white;
+            padding-left:20px;
+            padding-top: 15px;
+            padding-bottom: 10px;
+        }
+    }
+    
+    .safe{
+        background-image: url('../images/safe.svg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 80%;
+        border-radius: 15px;
+        div{
+            background-color: rgba(0, 0, 0, 0.45);
+            width: 100%;
+            height: 100%;
+            position: relative;
+            bottom: 19px;
+            border-radius: 15px;
+        }
+    }
+    .labour{
+        background-image: url('../images/delivery.svg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 80%;
+        border-radius: 15px;
+        div{
+            background-color: rgba(0, 0, 0, 0.45);
+            width: 100%;
+            height: 100%;
+            position: relative;
+            bottom: 19px;
+            border-radius: 15px;
+        }
+    }
+    .diapering{
+        background-image: url('../images/diapering.svg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 80%;
+        border-radius: 15px;
+        div{
+            background-color: rgba(0, 0, 0, 0.45);
+            width: 100%;
+            height: 100%;
+            position: relative;
+            bottom: 19px;
+            border-radius: 15px;
+        }
+    }
+    .sleep{
+        background-image: url('../images/sleep.svg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 80%;
+        border-radius: 15px;
+        div{
+            background-color: rgba(0, 0, 0, 0.45);
+            width: 100%;
+            height: 100%;
+            position: relative;
+            bottom: 19px;
+            border-radius: 15px;
+        }
+    }
+}

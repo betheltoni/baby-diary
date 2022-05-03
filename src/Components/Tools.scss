@@ -1,0 +1,111 @@
+
+.tools{
+    height: 300px;
+    margin-left: 5%;
+    margin-bottom: 100px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    h2{
+        color: #242424;
+    }
+    .tools-grid{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+    }
+    .ellipse{
+        position: relative;
+        left: 15px;
+        bottom: 75px;
+        opacity: 0.9;
+    }
+    .date-calculator{
+       align-items: center;
+       text-align: center;
+       img{
+           display: block;
+           margin: auto;
+           padding-top: 10px;
+       }
+       p{
+           position: relative;
+            bottom: 40px;
+            color: #000000;        
+        }
+        
+    }
+    .weight-calculator{
+       align-items: center;
+       text-align: center;
+       img{
+           display: block;
+           margin: auto;
+           padding-top: 10px;
+       }
+       p{
+        position: relative;
+         bottom: 40px;
+         color: #000000;        
+     }
+        
+    }
+    .contraction-timer{
+       align-items: center;
+       text-align: center;
+       img{
+           display: block;
+           margin: auto;
+           padding-top: 10px;
+       }
+       p{
+        position: relative;
+         bottom: 40px;
+         color: #000000;        
+     }
+        
+    }
+    .growth-chart{
+       align-items: center;
+       text-align: center;
+       img{
+           display: block;
+           margin: auto;
+           padding-top: 10px;
+       }
+       p{
+        position: relative;
+         bottom: 40px;
+         color: #000000;        
+     }
+        
+    }
+    .scheduler{
+       align-items: center;
+       text-align: center;
+       img{
+           display: block;
+           margin: auto;
+           padding-top: 10px;
+       }
+       p{
+        position: relative;
+         bottom: 40px;  
+         color: #000000;       
+     }
+        
+    }
+    .memories{
+       align-items: center;
+       text-align: center;
+       img{
+           display: block;
+           margin: auto;
+           padding-top: 10px;
+       }
+       p{
+        position: relative;
+         bottom: 40px;
+         color: #000000;       
+     }
+        
+    }
+}

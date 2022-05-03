@@ -7,6 +7,7 @@ import babynames from "../images/babynames.svg"
 import backpains from "../images/backpains.svg"
 import pregnancysigns from "../images/pregnancysigns.svg"
 import Button from './Button'
+import "./Watching.scss";
 
 const Watching = () => {
   return (

@@ -1,0 +1,47 @@
+.watching{
+    background-color: #4B8FC0;
+    padding-top: 50px;
+    height: 380px;
+    padding-left: 5%;
+    margin-bottom: 80px;
+    color: #fff;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    .play-icon{
+        position: relative;
+        right: 43px;
+        bottom: 28px;
+    }
+    .play-icon-wrapper{
+        position: relative;
+        top: 38%;
+        left: 28%;
+    }
+    span{
+        padding-left: 5px;
+        color: #fff;
+        font-size: smaller;
+    }
+    .watching-header{
+        h2{
+            display: inline;
+            margin-right: 60.5%;
+        }
+    }
+    .logo{
+        display: inline;
+    }
+    .watching-grid{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        padding-top: 0;
+        position: relative;
+        bottom: 8%;
+    }
+    .duration-text{
+        position: relative;
+        left: 67%;
+        bottom: 11%;
+        color: rgba(255, 255, 255, 0.4);
+    }
+}

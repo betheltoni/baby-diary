@@ -7,6 +7,7 @@ import memories from "../images/memories.svg"
 import scheduler from "../images/scheduler.svg"
 import weightCalculator from "../images/weightCalculator.svg"
 import hr from "../images/hr.svg"
+import "./Tools.scss";
 
 const Tools = () => {
   return (

@@ -1,0 +1,42 @@
+.testimonial{
+    display: grid;
+    grid-template-columns: auto auto;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    .testimonial-text{
+        background-image: url('../images/testimonials.svg');
+        background-repeat: no-repeat;
+        width: 55%;
+        margin-left: 15%;
+        .testimonial-author{
+            color: #989898;
+        }
+        .icon-display{
+            position: relative;
+            right: 13%;
+            bottom: -90px;
+            .icon{
+                position: relative;
+                right: 47px;
+                bottom: 28px;
+            }
+        }
+        .testimonial-text-wrapper{
+            position: relative;
+            bottom: 16%;
+        }
+    }
+    .testimonial-image{
+        div{
+            position: relative;
+            left: 78%;
+            bottom: 50%;
+            .icon{
+                position: relative;
+                right: 47px;
+                bottom: 28px;
+            }
+        }
+    }
+    
+}
